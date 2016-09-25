@@ -1,0 +1,15 @@
+/*hide header for mobile*/
+@media screen and (max-width: 640px) {
+  .header {
+    top: -120px;
+  }
+  .navigation {
+    display: inline-block;
+    width: 100%;
+  }
+  .content {
+    width: 100%;
+    left: 0;
+    padding-top: 150px;
+  }
+}
